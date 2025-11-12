@@ -32,7 +32,7 @@ This document resolves unknowns identified in Technical Context and Constitution
 - **gpt-5-mini**: Newer but still preview; prefer stable gpt-4.1 family for production marketplace
 
 **Implementation Notes**:
-- Use Microsoft Agent Framework's model configuration to switch between GitHub Models (dev) and Azure AI Foundry (prod)
+- Use Mi    figuration to switch between GitHub Models (dev) and Azure AI Foundry (prod)
 - Configure in AppHost.cs using `IsPublishMode` to select endpoint
 - Both sitter-agent and orchestrator-agent should use same model for consistency
 
